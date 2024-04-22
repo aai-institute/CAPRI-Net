@@ -1,6 +1,6 @@
 {
   "Description" : "This experiment learns a shape representation for CAD shapes ",
-  "DataSource" : "/local-scratch2/fenggeny/data/abc_all",
+  "DataSource" : "PATH_TO_DATA_SOURCE",
   "NetworkArch" : "capri",
   "NumEpochs" : 1000,
   "SnapshotFrequency" : 100,
