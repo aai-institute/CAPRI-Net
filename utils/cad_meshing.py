@@ -270,7 +270,7 @@ def create_cad_mesh(generator, primitives, connection_t, filename, file_type='of
     else:
         raise RuntimeError("CSG parts already exists. Please remove the directory before running the code.")
 
-    tree_file = parts_save_dir + "tree.txt"
+    tree_file = parts_save_dir + "/tree.txt"
     part_idx = 0
 
     if not os.path.isdir(primi_dir):
